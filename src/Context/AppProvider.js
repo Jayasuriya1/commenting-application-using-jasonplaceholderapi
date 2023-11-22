@@ -11,9 +11,6 @@ export default function AppProvider({children}){
         id:11,
         name:"jayasuriya"
     })
-    // const [cartProductId,setCartProductId] = useState([])
-    // const [productCount,setProductCount] = useState(0)
-    // const [totalCartPrice,setTotalCartPrice] = useState(0)
     
     return(
         <AppContext.Provider
