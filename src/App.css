@@ -14,15 +14,17 @@
 
 .nav-bar{
   display: flex;
-  /* background-color: aquamarine; */
+  background-color: #212529;
   height: 12vh;
   align-items: center;
   gap: 10px;
   padding-left: 50px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  color: black;
+  color: rgb(20, 98, 254);
+  
 }
 .nav-bar>h4{
+  color: #ffffff8c;
   padding-top: 7px;
 }
 
@@ -30,10 +32,7 @@
   width: 100%;
   min-height: 88vh;
   padding-top: 20px;
-  /* background-color: aqua; */
 }
-
-/* ----------------post----------------- */
 
 .post-container{
   
@@ -44,15 +43,11 @@
 
 .post-container:hover{
   background-color: #f2f4f5;
-  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
 }
-
-/* #F9FAFA */
 
 .post-header{
   display: flex;
   align-items: center;
-  /* background-color: aquamarine; */
   gap: 5px;
   
 }
@@ -78,10 +73,6 @@
   margin-bottom: 0;
 }
 
-/* .post-comment-btn>ChatBubbleOutlineIcon{
-  padding-right: 5px;
-} */
-
 hr.half-width{
   width: 80%;
   margin: 0 auto;
@@ -94,7 +85,7 @@ hr.half-width{
 
 
 .post-main-content{
-  background-color: antiquewhite;
+  background-color: #f2f4f5;
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
